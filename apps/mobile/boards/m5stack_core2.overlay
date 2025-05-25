@@ -1,0 +1,8 @@
+/ {
+    chosen {
+        sys_heap: sysheap {
+            compatible = "zephyr,sys-h-heap";
+            region = <&psram0>;
+        };
+    };
+};
